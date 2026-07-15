@@ -1,0 +1,32 @@
+:root {
+    --background: #ffffff;
+    --text: #333333;
+    --primary: #6200ee;
+}
+
+[data-theme="dark"] {
+    --background: #121212;
+    --text: #ffffff;
+    --primary: #bb86fc;
+}
+
+
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+.app {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+button {
+    width: 140px;
+    height: 50px;
+    border: 5px solid red;
+    background-color: var(--primary);
+    color: white;
+}
