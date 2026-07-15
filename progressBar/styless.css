@@ -1,0 +1,9 @@
+.outer {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.inner {
+    background-color: green;
+    color: white;
+}
